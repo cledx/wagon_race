@@ -1,0 +1,40 @@
+.lane td {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(245, 245, 245, 0.338);
+    position: relative;
+
+}
+
+.lane td img {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#player-1 {
+    border-bottom: 8px solid rgba(0, 0, 0, 0.607);
+}
+
+.race-track {
+    margin: 0 auto;
+    margin-top: 32px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 4px dashed yellow;
+    padding: 0%
+}
+
+.finish {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/finish.png");
+    background-size: cover;
+}
+
+.lane .active {
+    z-index: 1;
+}
